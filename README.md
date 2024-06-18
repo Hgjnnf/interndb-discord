@@ -6,7 +6,7 @@ A Discord Bot to interact with an internship database, allowing users to record 
 
 ## Partners
 
-- ([Tech Career North](https://techcareerchange.vercel.app/))
+- [Tech Career North](https://techcareerchange.vercel.app/)
 
 ## Features
 
