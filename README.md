@@ -23,10 +23,10 @@ A Discord Bot to interact with an internship database, allowing users to record 
 
 ### Query Process
 
-`!query process [parameter]`: Allows users to query their own process or processes by companies. Queries can be made in public channels or via DMs.
+`!query process [parameter]`: Allows users to query their own process or processes by companies. Queries can be made in public channels or via DMs. If no parameters are present, it will query all the user's processes.
 - Parameters:
-    - `company` (required): Filters query to a specific company.
-    - `step` (required): Filters query to a specific step in the process.
+    - `company` (optional): Filters query to a specific company.
+    - `step` (optional): Filters query to a specific step in the process.
 
 Example Input:
 
