@@ -26,8 +26,7 @@ A Discord Bot to interact with an internship database, allowing users to record 
 `!query process [parameter]`: Allows users to query their own process or processes by companies. Queries can be made in public channels or via DMs.
 - Parameters:
     - `company` (required): Filters query to a specific company.
-    - `pay` (optional): Filters the query to information about pay.
-    - `questions` (optional): Filters the query to interview questions.
+    - `step` (required): Filters query to a specific step in the process.
 
 Example Input:
 
@@ -38,7 +37,8 @@ Example Input:
 `!query info [parameter]`: Allows users to query information recorded in the database. Queries can be made in public channels or via DMs.
 - Parameters:
     - `company` (required): Filters query to a specific company.
-    - `step` (required): Filters query to a specific step in the process.
+    - `pay` (optional): Filters the query to information about pay.
+    - `questions` (optional): Filters the query to interview questions.
 
 Example Input:
 
