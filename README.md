@@ -32,18 +32,6 @@ Example Input:
 
 `!query process company=Google`
 
-### Query Information
-
-`!query info [parameter]`: Allows users to query information recorded in the database. Queries can be made in public channels or via DMs.
-- Parameters:
-    - `company` (required): Filters query to a specific company.
-    - `pay` (optional): Filters the query to information about pay.
-    - `questions` (optional): Filters the query to interview questions.
-
-Example Input:
-
-`!query info company=Google`
-
 Example Output:
 
 ```
@@ -55,6 +43,18 @@ Discord Handle: @user2
 Company: Google
 Step: Final Round
 ```
+
+### Query Information
+
+`!query info [parameter]`: Allows users to query information recorded in the database. Queries can be made in public channels or via DMs.
+- Parameters:
+    - `company` (required): Filters query to a specific company.
+    - `pay` (optional): Filters the query to information about pay.
+    - `questions` (optional): Filters the query to interview questions.
+
+Example Input:
+
+`!query info company=Google`
 
 ### Record Process
 
